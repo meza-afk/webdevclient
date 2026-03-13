@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Table</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></head>
+
+<body class="bg-gray-100 p-8">
+<div class="max-w-6xl mx-auto bg-white shadow rounded-lg">
+
+  <div class="flex items-center justify-between p-4 border-b">
+    <h2 class="text-lg font-semibold">0 selected</h2>
+
+    <div class="flex gap-6 text-gray-600 text-sm">
+      <button class="flex items-center gap-2 hover:text-black">
+        <i class="fa-solid fa-filter"></i> sort by
+    </button>
+
+      <button class="flex items-center gap-2 hover:text-black">
+        <i class="fa-solid fa-ellipsis"></i> actions
+      </button>
+    </div>
+  </div>
+
+  <div class="overflow-x-auto">
+
+  <table class="min-w-full text-sm text-left">
+
+    <thead class="text-gray-500 border-b bg-gray-50">
+      <tr>
+        <th class="p-3">
+          <input type="checkbox">
+        </th>
+        <th class="p-3">Name</th>
+        <th class="p-3">Properties</th>
+        <th class="p-3">Created by</th>
+        <th class="p-3">Last updated</th>
+        <th class="p-3"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr class="border-b hover:bg-gray-100">
+        <td class="p-3"><input type="checkbox"></td>
+        <td class="p-3">denver</td>
+        <td class="p-3">24</td>
+        <td class="p-3">Me</td>
+        <td class="p-3">02/27/2026 at 1:41PM</td>
+        <td class="p-3 text-right"><i class="fa-solid fa-ellipsis"></i></td>
+      </tr>
+
+      <tr class="border-b hover:bg-gray-100">
+        <td class="p-3"><input type="checkbox"></td>
+        <td class="p-3">test save</td>
+        <td class="p-3">10</td>
+        <td class="p-3">Me</td>
+        <td class="p-3">02/10/2026 at 5:52PM</td>
+        <td class="p-3 text-right"><i class="fa-solid fa-ellipsis"></i></td>
+      </tr>
+
+      <tr class="border-b hover:bg-gray-100">
+        <td class="p-3"><input type="checkbox"></td>
+        <td class="p-3">gggg</td>
+        <td class="p-3">10</td>
+        <td class="p-3">Me</td>
+        <td class="p-3">02/04/2026 at 5:49PM</td>
+        <td class="p-3 text-right"><i class="fa-solid fa-ellipsis"></i></td>
+      </tr>
+
+      
+
+    </tbody>
+
+  </table>
+
+  </div>
+
+  <div class="flex justify-between items-center p-4 text-sm text-gray-500 border-t">
+    <div>Show <span class="font-medium">5</span> of 5 results</div>
+
+    <div class="w-8 h-8 flex items-center justify-center rounded-full border text-green-600">
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
