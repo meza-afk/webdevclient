@@ -1,0 +1,50 @@
+
+//завдання 1
+console.log("Завдання №1:")
+let a=7 , b=2;
+
+console.log("Множина:",a * b);
+console.log("Ділення",a / b);
+console.log("Віднімання",a - b);
+console.log("Додавання",a + b);
+console.log("");
+
+//завдання 2
+console.log("Завдання №2:")
+let firstname="Іван";
+let lastname="Іванов";
+let fullname= firstname + " " + lastname;
+
+console.log("Привіт," + fullname + "!");
+console.log("");
+
+//завдання 3
+console.log("Завдання №3:")
+
+let age=15;
+
+if (age >= 18)
+{
+console.log("Доступ дозволено");
+}
+else
+{
+    console.log("Доступ заборонено");
+}
+console.log("");
+
+//завдання 4
+console.log("Завдання №4:")
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+console.log("");
+
+//завдання 5
+console.log("Завдання №5:")
+function square(number) {
+    return number * number;
+}
+
+let result = square(8);
+console.log("Квадрат числа 8:", result);
