@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя практична робота</title>
+    <style>
+        /* Стилі для Завдання 5 (Анімація) */
+        #elid {
+            width: 100px;
+            height: 100px;
+            background-color: #4CAF50;
+            position: relative;
+            left: 0;
+            margin: 20px 0;
+            border-radius: 10px;
+            transition: left 0.4s ease; /* Плавність переміщення */
+        }
+        
+        section {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        form input { display: block; margin-bottom: 10px; padding: 5px; }
+    </style>
+</head>
+<body>
+
+    <h1>Практичні завдання JS</h1>
+
+    <section>
+        <h2>Завдання №3: API Census</h2>
+        <input type="text" id="countyInput" placeholder="Назва округу (н-р: Baldwin County, Alabama)">
+        <button id="searchBtn">Знайти код</button>
+        <p id="apiDisplay"></p>
+    </section>
+
+    <section>
+        <h2>Завдання №4: Валідація форми</h2>
+        <form id="userForm">
+            <input type="text" id="first_name" placeholder="Ім'я">
+            <input type="text" id="last_name" placeholder="Прізвище">
+            <input type="email" id="email" placeholder="Email">
+            <button type="submit">Відправити</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Завдання №5: Анімація</h2>
+        <div id="elid"></div>
+        <button id="btnLeft">Вліво</button>
+        <button id="btnRight">Вправо</button>
+    </section>
+
+    <script src="js2.js"></script>
+</body>
+</html>
